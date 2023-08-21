@@ -135,17 +135,27 @@
         },
         {
             "category": "Operating Systems",
-            "type": "boolean",
+            "type": "multiple",
             "difficulty": "medium",
             "question": "Multitasking is the ability of an operating system to execute multiple processes concurrently.",
-            "correct_answer": "True"
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False",
+                "IDK",
+                "NON"
+            ]
         },
         {
             "category": "Operating Systems",
-            "type": "fill-in-the-blank",
+            "type": "multiple",
             "difficulty": "medium",
             "question": "The process of swapping data in and out of RAM to the storage is called ____________.",
-            "correct_answer": "paging"
+            "correct_answer": "paging",
+            "incorrect_answers": [
+                "imaging",
+                "webing",
+                "stunning+"
+            ]
         },
         {
             "category": "Operating Systems",
@@ -187,17 +197,27 @@
         },
         {
             "category": "Operating Systems",
-            "type": "boolean",
+            "type": "multiple",
             "difficulty": "easy",
             "question": "Virtual memory allows programs to use more memory than is physically available.",
-            "correct_answer": "True"
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False",
+                "IDK",
+                "NON"
+            ]
         },
         {
             "category": "Operating Systems",
-            "type": "fill-in-the-blank",
+            "type": "multiple",
             "difficulty": "hard",
             "question": "The first program that runs when a computer starts is called the ________.",
-            "correct_answer": "bootloader"
+            "correct_answer": "bootloader",
+            "incorrect_answers": [
+                "imaging",
+                "webing",
+                "stunning+"
+            ]
         },
         {
             "category": "Operating Systems",
@@ -241,17 +261,27 @@
         },
         {
             "category": "Operating Systems",
-            "type": "boolean",
+            "type": "multiple",
             "difficulty": "medium",
             "question": "The kernel is a separate program that provides an interface for user applications to interact with hardware.",
-            "correct_answer": "True"
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False",
+                "IDK",
+                "NON"
+            ]
         },
         {
             "category": "Operating Systems",
-            "type": "fill-in-the-blank",
+            "type": "multiple",
             "difficulty": "easy",
             "question": "The command-line interface of an operating system is often referred to as the ________.",
-            "correct_answer": "shell"
+            "correct_answer": "shell",
+            "incorrect_answers": [
+                "Kernel",
+                "Prompt",
+                "Alert"
+            ]
         },
         {
             "category": "Operating Systems",
@@ -295,17 +325,27 @@
         },
         {
             "category": "Operating Systems",
-            "type": "boolean",
+            "type": "multiple",
             "difficulty": "easy",
             "question": "Multithreading enables multiple threads to share the same memory space and resources within a process.",
-            "correct_answer": "True"
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False",
+                "IDK",
+                "NON"
+            ]
         },
         {
             "category": "Operating Systems",
-            "type": "fill-in-the-blank",
+            "type": "multiple",
             "difficulty": "medium",
             "question": "In ____________ scheduling, each process is assigned a fixed time slice to execute before being preempted.",
-            "correct_answer": "Round Robin"
+            "correct_answer": "Round Robin",
+            "incorrect_answers": [
+                "Bound Bin",
+                "Wound Cin",
+                "Spehrical Robin"
+            ]
         },
         {
             "category": "Operating Systems",
@@ -349,17 +389,27 @@
         },
         {
             "category": "Operating Systems",
-            "type": "boolean",
+            "type": "multiple",
             "difficulty": "medium",
             "question": "Thrashing occurs when the system spends more time swapping data between main memory and disk than executing processes.",
-            "correct_answer": "True"
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False",
+                "IDK",
+                "NON"
+            ]
         },
         {
             "category": "Operating Systems",
-            "type": "fill-in-the-blank",
+            "type": "multiple",
             "difficulty": "hard",
             "question": "In a Unix-like operating system, a new process is created using the ________ system call.",
-            "correct_answer": "fork"
+            "correct_answer": "fork",
+            "incorrect_answers": [
+                "Hard Disk",
+                "Main Memory",
+                "Network Interface Card"
+            ]
         },
         {
             "category": "Operating Systems",
