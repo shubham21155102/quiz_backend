@@ -164,8 +164,230 @@
             "type": "multiple",
             "difficulty": "hard",
             "question": "Which of the following scheduling algorithms can cause starvation?",
-            "correct_answers": ["First-Come, First-Served", "Priority Scheduling"],
-            "incorrect_answers": ["Round Robin", "Shortest Job Next"]
+            "correct_answers": [
+                "First-Come, First-Served",
+                "Priority Scheduling"
+            ],
+            "incorrect_answers": [
+                "Round Robin",
+                "Shortest Job Next"
+            ]
+        },
+        {
+            "category": "Operating Systems",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which synchronization primitive is used to ensure that only one thread can access a critical section at a time?",
+            "correct_answer": "Mutex",
+            "incorrect_answers": [
+                "Semaphore",
+                "Barrier",
+                "Spinlock"
+            ]
+        },
+        {
+            "category": "Operating Systems",
+            "type": "boolean",
+            "difficulty": "easy",
+            "question": "Virtual memory allows programs to use more memory than is physically available.",
+            "correct_answer": "True"
+        },
+        {
+            "category": "Operating Systems",
+            "type": "fill-in-the-blank",
+            "difficulty": "hard",
+            "question": "The first program that runs when a computer starts is called the ________.",
+            "correct_answer": "bootloader"
+        },
+        {
+            "category": "Operating Systems",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which permissions can be assigned to a file in Unix-like operating systems?",
+            "correct_answers": [
+                "Read",
+                "Write",
+                "Execute"
+            ],
+            "incorrect_answers": [
+                "Edit",
+                "Delete",
+                "Modify"
+            ]
+        },
+        {
+            "category": "Operating Systems",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of the following conditions is necessary for a deadlock to occur?",
+            "correct_answer": "Mutual Exclusion",
+            "incorrect_answers": [
+                "Preemption",
+                "Circular Wait",
+                "No Resource Holding"
+            ]
+        },
+        {
+            "category": "Operating Systems",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which of the following is NOT a valid process state?",
+            "correct_answer": "Sleeping",
+            "incorrect_answers": [
+                "Running",
+                "Blocked",
+                "Ready"
+            ]
+        },
+        {
+            "category": "Operating Systems",
+            "type": "boolean",
+            "difficulty": "medium",
+            "question": "The kernel is a separate program that provides an interface for user applications to interact with hardware.",
+            "correct_answer": "True"
+        },
+        {
+            "category": "Operating Systems",
+            "type": "fill-in-the-blank",
+            "difficulty": "easy",
+            "question": "The command-line interface of an operating system is often referred to as the ________.",
+            "correct_answer": "shell"
+        },
+        {
+            "category": "Operating Systems",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of the following are levels in the memory hierarchy?",
+            "correct_answers": [
+                "Cache",
+                "Main Memory",
+                "Secondary Storage"
+            ],
+            "incorrect_answers": [
+                "Register",
+                "Network Storage",
+                "Virtual Memory"
+            ]
+        },
+        {
+            "category": "Operating Systems",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which page replacement algorithm aims to minimize the number of page faults?",
+            "correct_answer": "Optimal",
+            "incorrect_answers": [
+                "FIFO",
+                "LRU",
+                "Random"
+            ]
+        },
+        {
+            "category": "Operating Systems",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which file system structure uses a table of pointers to point to the blocks of a file?",
+            "correct_answer": "Indexed Allocation",
+            "incorrect_answers": [
+                "Contiguous Allocation",
+                "Linked Allocation",
+                "FAT (File Allocation Table)"
+            ]
+        },
+        {
+            "category": "Operating Systems",
+            "type": "boolean",
+            "difficulty": "easy",
+            "question": "Multithreading enables multiple threads to share the same memory space and resources within a process.",
+            "correct_answer": "True"
+        },
+        {
+            "category": "Operating Systems",
+            "type": "fill-in-the-blank",
+            "difficulty": "medium",
+            "question": "In ____________ scheduling, each process is assigned a fixed time slice to execute before being preempted.",
+            "correct_answer": "Round Robin"
+        },
+        {
+            "category": "Operating Systems",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which methods can be used for inter-process communication (IPC) in operating systems?",
+            "correct_answers": [
+                "Pipes",
+                "Shared Memory",
+                "Message Passing"
+            ],
+            "incorrect_answers": [
+                "Registers",
+                "Stacks",
+                "Queues"
+            ]
+        },
+        {
+            "category": "Operating Systems",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Real-time operating systems are designed to meet specific deadlines for processing tasks in applications such as ____________.",
+            "correct_answer": "Aircraft control systems",
+            "incorrect_answers": [
+                "Word processing",
+                "Web browsing",
+                "Video editing"
+            ]
+        },
+        {
+            "category": "Operating Systems",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which scheduling algorithm guarantees that every process gets a fair share of the CPU time?",
+            "correct_answer": "Round Robin",
+            "incorrect_answers": [
+                "First-Come, First-Served",
+                "Shortest Job Next",
+                "Priority Scheduling"
+            ]
+        },
+        {
+            "category": "Operating Systems",
+            "type": "boolean",
+            "difficulty": "medium",
+            "question": "Thrashing occurs when the system spends more time swapping data between main memory and disk than executing processes.",
+            "correct_answer": "True"
+        },
+        {
+            "category": "Operating Systems",
+            "type": "fill-in-the-blank",
+            "difficulty": "hard",
+            "question": "In a Unix-like operating system, a new process is created using the ________ system call.",
+            "correct_answer": "fork"
+        },
+        {
+            "category": "Operating Systems",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of the following are common file attributes in most operating systems?",
+            "correct_answers": [
+                "Read",
+                "Write",
+                "Execute"
+            ],
+            "incorrect_answers": [
+                "Compress",
+                "Encrypt",
+                "Archive"
+            ]
+        },
+        {
+            "category": "Operating Systems",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Cache memory is located closest to which component in a computer system?",
+            "correct_answer": "CPU",
+            "incorrect_answers": [
+                "Hard Disk",
+                "Main Memory",
+                "Network Interface Card"
+            ]
         }
-        ]
+    ]
 }
