@@ -120,7 +120,52 @@
                 "Network Model",
                 "Entity-Relationship Model"
             ]
+        },
+        {
+            "category": "Operating Systems",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the primary function of an operating system?",
+            "correct_answer": "Manage hardware and software resources",
+            "incorrect_answers": [
+                "Run applications",
+                "Provide internet connectivity",
+                "Display graphical user interfaces"
+            ]
+        },
+        {
+            "category": "Operating Systems",
+            "type": "boolean",
+            "difficulty": "medium",
+            "question": "Multitasking is the ability of an operating system to execute multiple processes concurrently.",
+            "correct_answer": "True"
+        },
+        {
+            "category": "Operating Systems",
+            "type": "fill-in-the-blank",
+            "difficulty": "medium",
+            "question": "The process of swapping data in and out of RAM to the storage is called ____________.",
+            "correct_answer": "paging"
+        },
+        {
+            "category": "Operating Systems",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which file system is commonly used in Linux distributions?",
+            "correct_answer": "Ext4",
+            "incorrect_answers": [
+                "NTFS",
+                "FAT32",
+                "HFS+"
+            ]
+        },
+        {
+            "category": "Operating Systems",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of the following scheduling algorithms can cause starvation?",
+            "correct_answers": ["First-Come, First-Served", "Priority Scheduling"],
+            "incorrect_answers": ["Round Robin", "Shortest Job Next"]
         }
-        
-    ]
+        ]
 }
