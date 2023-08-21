@@ -6,7 +6,7 @@ const cors = require("cors");
 app.use(cors());
 
 app.get('/', (req, res) => {
-    const filePath = "questions.json";
+    const filePath = "dbms.json";
     fs.promises.readFile(filePath, 'utf-8').then((data) => {
         const parsedData = JSON.parse(data);
         // console.log(parsedData);

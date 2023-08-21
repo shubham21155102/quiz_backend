@@ -1,0 +1,125 @@
+{
+    "response_code": 0,
+    "results": [
+        {
+            "category": "DBMS",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What does 'SQL' stand for in the context of databases?",
+            "correct_answer": "Structured Query Language",
+            "incorrect_answers": [
+                "System Query Language",
+                "Simple Query Language",
+                "Standard Query Language"
+            ]
+        },
+        {
+            "category": "DBMS",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which term refers to a collection of related data entries in a database?",
+            "correct_answer": "Table",
+            "incorrect_answers": [
+                "Row",
+                "Column",
+                "Database"
+            ]
+        },
+        {
+            "category": "DBMS",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What type of key uniquely identifies a record within a database?",
+            "correct_answer": "Primary Key",
+            "incorrect_answers": [
+                "Foreign Key",
+                "Candidate Key",
+                "Composite Key"
+            ]
+        },
+        {
+            "category": "DBMS",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which SQL command is used to retrieve data from a database?",
+            "correct_answer": "SELECT",
+            "incorrect_answers": [
+                "UPDATE",
+                "DELETE",
+                "INSERT"
+            ]
+        },
+        {
+            "category": "DBMS",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which type of database model represents data as a collection of tables?",
+            "correct_answer": "Relational Model",
+            "incorrect_answers": [
+                "Hierarchical Model",
+                "Network Model",
+                "Entity-Relationship Model"
+            ]
+        },
+        {
+            "category": "DBMS",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the purpose of the 'JOIN' operation in SQL?",
+            "correct_answer": "To combine data from two or more tables",
+            "incorrect_answers": [
+                "To create a new table",
+                "To delete data",
+                "To update data"
+            ]
+        },
+        {
+            "category": "DBMS",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which SQL command is used to add new records to a database?",
+            "correct_answer": "INSERT",
+            "incorrect_answers": [
+                "UPDATE",
+                "DELETE",
+                "SELECT"
+            ]
+        },
+        {
+            "category": "DBMS",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In a relational database, what is the relationship between two tables through a common column?",
+            "correct_answer": "Foreign Key",
+            "incorrect_answers": [
+                "Primary Key",
+                "Composite Key",
+                "Unique Key"
+            ]
+        },
+        {
+            "category": "DBMS",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which term refers to the process of improving the design of a database schema?",
+            "correct_answer": "Normalization",
+            "incorrect_answers": [
+                "Denormalization",
+                "Optimization",
+                "Refactoring"
+            ]
+        },
+        {
+            "category": "DBMS",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which database model stores data in a tree-like structure?",
+            "correct_answer": "Hierarchical Model",
+            "incorrect_answers": [
+                "Relational Model",
+                "Network Model",
+                "Entity-Relationship Model"
+            ]
+        }
+      ]
+    }
