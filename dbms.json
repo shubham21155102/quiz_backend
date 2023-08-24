@@ -17,6 +17,138 @@
             "category": "DBMS",
             "type": "multiple",
             "difficulty": "easy",
+            "question": "What does 'SQL' stand for in the context of databases?",
+            "correct_answer": "Structured Query Language",
+            "incorrect_answers": [
+                "System Query Language",
+                "Simple Query Language",
+                "Standard Query Language"
+            ]
+        },
+        {
+            "category": "DBMS",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What does an ER diagram represent?",
+            "incorrect_answers": [
+                "Database records",
+                "Database operations",
+                "Database queries"
+            ],
+            "correct_answer": "Database schema"
+        },
+        {
+            "category": "DBMS",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which of the following components is NOT represented in an ER diagram?",
+            "incorrect_answers": [
+                "Entities",
+                "Attributes",
+                "Relationships"
+            ],
+            "correct_answer": "Indexes"
+        },
+        {
+            "category": "DBMS",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In an ER diagram, what does an oval symbol represent?",
+            "incorrect_answers": [
+                "Entity",
+                "Relationship",
+                "Primary key"
+            ],
+            "correct_answer": "Attribute"
+        },
+        {
+            "category": "DBMS",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is a primary key in an ER diagram?",
+            "incorrect_answers": [
+                "A description of an entity",
+                "A relationship between entities",
+                "An attribute with multiple values"
+            ],
+            "correct_answer": "A unique identifier for an entity"
+        },
+        {
+            "category": "DBMS",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is a weak entity in an ER diagram?",
+            "incorrect_answers": [
+                "An entity with no attributes",
+                "An entity that doesn't have a primary key",
+                "An entity that is not related to any other entity"
+            ],
+            "correct_answer": "An entity that depends on another entity"
+        },
+        {
+            "category": "DBMS",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which type of relationship is represented by a diamond symbol in an ER diagram?",
+            "incorrect_answers": [
+                "One-to-One",
+                "One-to-Many",
+                "Many-to-One"
+            ],
+            "correct_answer": "Many-to-Many"
+        },
+        {
+            "category": "DBMS",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the purpose of cardinality in an ER diagram?",
+            "incorrect_answers": [
+                "To specify attributes of an entity",
+                "To indicate primary keys",
+                "To represent weak entities"
+            ],
+            "correct_answer": "To define relationships between entities"
+        },
+        {
+            "category": "DBMS",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which of the following represents a composite attribute in an ER diagram?",
+            "incorrect_answers": [
+                "A multi-valued attribute",
+                "An attribute with a single value",
+                "An attribute with a derived value"
+            ],
+            "correct_answer": "An attribute composed of sub-attributes"
+        },
+        {
+            "category": "DBMS",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What does the crow's foot notation represent in an ER diagram?",
+            "incorrect_answers": [
+                "Primary key",
+                "Foreign key",
+                "Attribute"
+            ],
+            "correct_answer": "Cardinality"
+        },
+        {
+            "category": "DBMS",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the purpose of an associative entity in an ER diagram?",
+            "incorrect_answers": [
+                "To represent a one-to-one relationship",
+                "To represent an attribute",
+                "To represent a weak entity"
+            ],
+            "correct_answer": "To resolve a many-to-many relationship"
+        },
+        {
+            "category": "DBMS",
+            "type": "multiple",
+            "difficulty": "easy",
             "question": "Which term refers to a collection of related data entries in a database?",
             "correct_answer": "Table",
             "incorrect_answers": [
@@ -121,5 +253,5 @@
                 "Entity-Relationship Model"
             ]
         }
-      ]
+    ]
 }
