@@ -27,7 +27,7 @@ app.get('/hack/:ques', async (req, res) => {
             apiKey: process.env.open_api
         });
         
-        // const openai = new OpenAIApi(config);
+        const openai = new OpenAIApi(config);
         
         const conversation = [
             { role: "user", content: ques },
